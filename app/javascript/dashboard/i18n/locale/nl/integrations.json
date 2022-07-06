@@ -1,0 +1,89 @@
+{
+  "INTEGRATION_SETTINGS": {
+    "HEADER": "Integraties",
+    "WEBHOOK": {
+      "SUBSCRIBED_EVENTS": "Subscribed Events",
+      "FORM": {
+        "CANCEL": "Annuleren",
+        "DESC": "Webhook events bieden je realtime informatie over wat er gebeurt in je Chatwoot account. Voer een geldige URL in om een callback te configureren.",
+        "SUBSCRIPTIONS": {
+          "LABEL": "Events",
+          "EVENTS": {
+            "CONVERSATION_CREATED": "Conversation Created",
+            "CONVERSATION_STATUS_CHANGED": "Conversation Status Changed",
+            "CONVERSATION_UPDATED": "Conversation Updated",
+            "MESSAGE_CREATED": "Message created",
+            "MESSAGE_UPDATED": "Message updated",
+            "WEBWIDGET_TRIGGERED": "Live chat widget opened by the user"
+          }
+        },
+        "END_POINT": {
+          "LABEL": "Webhook URL",
+          "PLACEHOLDER": "Voorbeeld: https://voorbeeld/api/webhook",
+          "ERROR": "Voer een geldige URL in"
+        },
+        "EDIT_SUBMIT": "Update webhook",
+        "ADD_SUBMIT": "Maak webhook"
+      },
+      "TITLE": "Webhook",
+      "CONFIGURE": "Configureren",
+      "HEADER": "Webhook instellingen",
+      "HEADER_BTN_TXT": "Nieuwe webhook toevoegen",
+      "LOADING": "Bijgevoegde webhooks ophalen",
+      "SEARCH_404": "Er zijn geen items die overeenkomen met deze zoekopdracht",
+      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks zijn HTTP callbacks die voor elk account kunnen worden gedefinieerd. Ze worden geactiveerd door gebeurtenissen zoals het aanmaken van berichten in Chatwoot. Je kunt meer dan één webhook aanmaken voor dit account. <br /><br /> Voor het maken van een <b>webhook</b>, klik op de <b>Voeg nieuwe webhook</b> knop toe. U kunt ook alle bestaande webhook verwijderen door te klikken op de verwijderknop.</p>",
+      "LIST": {
+        "404": "Er zijn geen webhooks geconfigureerd voor dit account.",
+        "TITLE": "Webhooks beheren",
+        "TABLE_HEADER": [
+          "Webhook eindpunt",
+          "acties"
+        ]
+      },
+      "EDIT": {
+        "BUTTON_TEXT": "Bewerken",
+        "TITLE": "Edit webhook",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook configuration updated successfully",
+          "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"
+        }
+      },
+      "ADD": {
+        "CANCEL": "annuleren",
+        "TITLE": "Nieuwe webhook toevoegen",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook configuration added successfully",
+          "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"
+        }
+      },
+      "DELETE": {
+        "BUTTON_TEXT": "Verwijderen",
+        "API": {
+          "SUCCESS_MESSAGE": "Webhook succesvol verwijderd",
+          "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"
+        },
+        "CONFIRM": {
+          "TITLE": "Verwijdering bevestigen",
+          "MESSAGE": "Are you sure to delete the webhook? (%{webhookURL})",
+          "YES": "Ja, verwijderen ",
+          "NO": "Nee, Bewaar het"
+        }
+      }
+    },
+    "SLACK": {
+      "HELP_TEXT": {
+        "TITLE": "Using Slack Integration",
+        "BODY": "<br/><p>Chatwoot will now sync all the incoming conversations into the <b><i>customer-conversations</i></b> channel inside your slack workplace.</p><p>Replying to a conversation thread in <b><i>customer-conversations</i></b> slack channel will create a response back to the customer through chatwoot.</p><p>Start the replies with <b><i>note:</i></b> to create private notes instead of replies.</p><p>If the replier on slack has an agent profile in chatwoot under the same email, the replies will be associated accordingly.</p><p>When the replier doesn't have an associated agent profile, the replies will be made from the bot profile.</p>"
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "Verwijderen",
+      "API": {
+        "SUCCESS_MESSAGE": "Integration deleted successfully"
+      }
+    },
+    "CONNECT": {
+      "BUTTON_TEXT": "Connect"
+    }
+  }
+}
